@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>WHIFF</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas"></canvas>
+        
+        <div id="ui">
+            <div id="whiff-label">WHIFFES</div>
+            <div id="streak">0</div>
+            <div id="intensity-label">INTENSITY 1</div>
+        </div>
+
+        <div id="stats">
+            <div id="catch-label">CAUGHT</div>
+            <div id="catch-count">0</div>
+        </div>
+
+        <div id="start-screen">
+            <h1>WHIFF</h1>
+            <p>tap to catch. miss to fail.</p>
+            <button id="start-btn">START</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
